@@ -1,0 +1,7 @@
+
+match-id, team, opponent, goals_scored, goals_conceded,home_away
+1,Chelsea,Liverpool,0,3,away
+2,Liverpool,Burnley,2,0,home
+3,Sheff utd,Liverpool,3,0,away
+4,Mancity,Liverpool,1,2,home
+5,Liverpool,Arsenal,3,2,home
