@@ -1,1 +1,8 @@
-
+import pandas as pd
+df = pd.read_csv("../data/matches.csv")
+print(df)
+print(df.groupby("team")["goals_scored"].sum())
+df["goal_diff"] = df["goals_scored"]
+print(df[["team", "goal_diff"]])
+print("average goals scored:")
+print(df.groupby("team")["goals_scored"].mean())
